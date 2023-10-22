@@ -4,7 +4,7 @@ import {
   Timeline,
   DateRange,
   PermIdentity,
-  PlaylistAddCheck,
+  DoneAll,
   LocationOn,
   WorkOutline,
   MailOutline,
@@ -42,7 +42,7 @@ export default function Sidebar() {
               使用者
             </li>
             <li className="sidebarListItem">
-              <PlaylistAddCheck className="sidebarIcon" />
+              <DoneAll className="sidebarIcon" />
               待簽核
             </li>
             <li className="sidebarListItem">

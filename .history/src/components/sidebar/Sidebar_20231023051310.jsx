@@ -4,8 +4,8 @@ import {
   Timeline,
   DateRange,
   PermIdentity,
-  PlaylistAddCheck,
-  LocationOn,
+  Storefront,
+  PersonPinCircle,
   WorkOutline,
   MailOutline,
   DynamicFeed,
@@ -42,11 +42,11 @@ export default function Sidebar() {
               使用者
             </li>
             <li className="sidebarListItem">
-              <PlaylistAddCheck className="sidebarIcon" />
-              待簽核
+              <Storefront className="sidebarIcon" />
+              Products
             </li>
             <li className="sidebarListItem">
-              <LocationOn className="sidebarIcon" />
+              <PersonPinCircle className="sidebarIcon" />
               打卡
             </li>
             <li className="sidebarListItem">

@@ -4,8 +4,8 @@ import {
   Timeline,
   DateRange,
   PermIdentity,
-  PlaylistAddCheck,
-  LocationOn,
+  Storefront,
+  PersonPinCircle,
   WorkOutline,
   MailOutline,
   DynamicFeed,
@@ -42,16 +42,50 @@ export default function Sidebar() {
               使用者
             </li>
             <li className="sidebarListItem">
-              <PlaylistAddCheck className="sidebarIcon" />
-              待簽核
+              <Storefront className="sidebarIcon" />
+              Products
             </li>
             <li className="sidebarListItem">
-              <LocationOn className="sidebarIcon" />
+              <PersonPinCircle className="sidebarIcon" />
               打卡
             </li>
             <li className="sidebarListItem">
               <WorkOutline className="sidebarIcon" />
               請假
+            </li>
+          </ul>
+        </div>
+        <div className="sidebarMenu">
+          <h3 className="sidebarTitle">Notifications</h3>
+          <ul className="sidebarList">
+            <li className="sidebarListItem">
+              <MailOutline className="sidebarIcon" />
+              Mail
+            </li>
+            <li className="sidebarListItem">
+              <DynamicFeed className="sidebarIcon" />
+              Feedback
+            </li>
+            <li className="sidebarListItem">
+              <ChatBubbleOutline className="sidebarIcon" />
+              Messages
+            </li>
+          </ul>
+        </div>
+        <div className="sidebarMenu">
+          <h3 className="sidebarTitle">Staff</h3>
+          <ul className="sidebarList">
+            <li className="sidebarListItem">
+              <WorkOutline className="sidebarIcon" />
+              Manage
+            </li>
+            <li className="sidebarListItem">
+              <Timeline className="sidebarIcon" />
+              Analytics
+            </li>
+            <li className="sidebarListItem">
+              <Report className="sidebarIcon" />
+              Reports
             </li>
           </ul>
         </div>

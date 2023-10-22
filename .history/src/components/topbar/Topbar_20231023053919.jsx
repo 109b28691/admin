@@ -7,7 +7,7 @@ export default function Topbar() {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="logo">Admin 人資管理系統</span>
+          <span className="logo">adim 人資管理系統</span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">

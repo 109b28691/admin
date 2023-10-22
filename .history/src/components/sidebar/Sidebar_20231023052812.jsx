@@ -4,9 +4,9 @@ import {
   Timeline,
   DateRange,
   PermIdentity,
-  PlaylistAddCheck,
+  AssignmentTurnedIn,
+  PersonPinCircle,
   LocationOn,
-  WorkOutline,
   MailOutline,
   DynamicFeed,
   ChatBubbleOutline,
@@ -42,15 +42,15 @@ export default function Sidebar() {
               使用者
             </li>
             <li className="sidebarListItem">
-              <PlaylistAddCheck className="sidebarIcon" />
+              <AssignmentTurnedIn className="sidebarIcon" />
               待簽核
             </li>
             <li className="sidebarListItem">
-              <LocationOn className="sidebarIcon" />
+              <PersonPinCircle className="sidebarIcon" />
               打卡
             </li>
             <li className="sidebarListItem">
-              <WorkOutline className="sidebarIcon" />
+              <LocationOn className="sidebarIcon" />
               請假
             </li>
           </ul>
