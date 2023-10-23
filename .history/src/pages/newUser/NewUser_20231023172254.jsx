@@ -34,9 +34,7 @@ export default function NewUser() {
             <label for="female">女生</label>
           </div>
         </div>
-        <div className="newUserItem">
-          <button className="newUserButton">建立</button>
-        </div>
+        <button className="newUserButton">建立</button>
       </form>
     </div>
   );

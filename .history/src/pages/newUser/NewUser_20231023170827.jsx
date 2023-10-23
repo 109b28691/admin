@@ -7,11 +7,11 @@ export default function NewUser() {
       <form className="newUserForm">
         <div className="newUserItem">
           <label>姓名</label>
-          <input type="text" placeholder="劉美美" />
+          <input type="text" placeholder="john" />
         </div>
         <div className="newUserItem">
           <label>電子信箱</label>
-          <input type="email" placeholder="admin@gmail.com" />
+          <input type="email" placeholder="john@gmail.com" />
         </div>
         <div className="newUserItem">
           <label>密碼</label>
@@ -19,11 +19,11 @@ export default function NewUser() {
         </div>
         <div className="newUserItem">
           <label>手機號碼</label>
-          <input type="text" placeholder="0912-345-678" />
+          <input type="text" placeholder="+1 123 456 78" />
         </div>
         <div className="newUserItem">
           <label>地址</label>
-          <input type="text" placeholder="台南市歸仁區長大路1號" />
+          <input type="text" placeholder="New York | USA" />
         </div>
         <div className="newUserItem">
           <label>性別</label>
@@ -34,9 +34,7 @@ export default function NewUser() {
             <label for="female">女生</label>
           </div>
         </div>
-        <div className="newUserItem">
-          <button className="newUserButton">建立</button>
-        </div>
+        <button className="newUserButton">建立</button>
       </form>
     </div>
   );
