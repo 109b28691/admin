@@ -8,7 +8,6 @@ import {
   LocationOn,
   WorkOutline
 } from "@material-ui/icons";
-import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -17,12 +16,10 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">基本功能</h3>
           <ul className="sidebarList">
-            <Link to="/" className="link">
-              <li className="sidebarListItem active">
-                <LineStyle className="sidebarIcon" />
-                首頁
-              </li>
-            </Link>
+            <li className="sidebarListItem active">
+              <LineStyle className="sidebarIcon" />
+              首頁
+            </li>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               時間軸
